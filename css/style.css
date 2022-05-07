@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(92, 32, 120);
+    font: normal 15pt Lato;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(195, 195, 195);
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#conteudo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#conteudo input{
+    color: white;
+    background-color: rgb(92, 32, 120);
+    height: 28px;
+    border: none;
+    width: 200px;
+    font-size: 12pt;
+    border-radius: 5px;
+}
+
+#conteudo #enviar{
+    height: 32px;
+    border-radius: 25px;
+    width: 128px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#enviar:hover{
+    background-color: rgb(71, 20, 95);
+}
+
+#res {
+    text-align: center;
+}
+
+#res #seltab{
+    border: none;
+    padding: 15px 30px;
+    background-color: rgb(92, 32, 120);
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
